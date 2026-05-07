@@ -63,6 +63,7 @@ server:
     type: ClusterIP
 
 dexServer:
+  enabled: true
   image:
     # -- Image of dex server for authentication.
     repository: dexidp/dex
